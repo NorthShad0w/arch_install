@@ -62,6 +62,14 @@ add Lock = Caps_Lock
 pacman 和 yay 设置成了中科大的源大部分情况速度还行
 
 yay安装的`google-chrome-stable`得搞个带代理的快捷启动
+/usr/local/bin/chrome
+```
+google-chrome-stable --proxy-server=socks5://127.0.0.1:7890
+```
+discord
+```
+http_proxy=socks5://127.0.0.1:7890 https_proxy=socks5://127.0.0.1:7890 /usr/bin/discord --proxy-server="socks5://127.0.0.1:7890"
+```
 
 接下来就是有关kvm的部分了
 
