@@ -71,6 +71,16 @@ discord
 http_proxy=socks5://127.0.0.1:7890 https_proxy=socks5://127.0.0.1:7890 /usr/bin/discord --proxy-server="socks5://127.0.0.1:7890"
 ```
 
+i3blocks 需要重新调整一下
+```
+yay -S i3blocks-contrib
+```
+
+然后是修改i3blocks.conf
+```
+command=/usr/lib/i3blocks/$BLOCK_NAME/$BLOCK_NAME
+```
+
 接下来就是有关kvm的部分了
 
 ## kvm
