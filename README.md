@@ -85,6 +85,8 @@ command=/usr/lib/i3blocks/$BLOCK_NAME/$BLOCK_NAME
 
 ## kvm
 
+一折腾到kvm发现还是fedora好用，换回fedora
+
 
 
 
